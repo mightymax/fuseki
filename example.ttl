@@ -1,0 +1,7 @@
+@prefix ex: <http://ex.com/> .
+@prefix sdo: <https://schema.org/> .
+
+ex:1 a sdo:Car ;
+ ex:maxSpeed 200 .
+
+<< ex:1 ex:maxSpeed 200 >> sdo:unitText "km/h" 

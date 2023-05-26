@@ -1,6 +1,6 @@
 FROM openjdk:11-slim-buster
 
-ARG FUSEKI_VERSION=4.5.0
+ARG FUSEKI_VERSION=4.8.0
 ARG DLCDN=https://dlcdn.apache.org/jena/binaries
 
 WORKDIR /opt 

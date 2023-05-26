@@ -8,12 +8,12 @@ docker buildx build -t mlindeman/fuseki .
 ```
 
 ## Run container
-Assuming you have a file `/tmp/rdf/data.ttl`:
+Assuming you have a file `/tmp/rdf/example.ttl` (this example file is available in ths repo):
 
 ```
 docker run --rm -p 3030:3030 \
   -v /tmp/rdf:/usr/share/data mlindeman/fuseki \
-  --file=/usr/share/data/data.ttl /ds
+  --file=/usr/share/data/example.ttl /ds
 ```
 
 After startup, your dataset should be available with UI on http://localhost:3030/#/dataset/ds/query
