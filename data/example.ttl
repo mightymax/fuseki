@@ -1,0 +1,15 @@
+prefix ex: <http://ex.com/>
+prefix sdo: <https://schema.org/>
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+
+ex:john-doe a sdo:Person; 
+  sdo:givenName "John"; 
+  sdo:familyName "Doe"; 
+  sdo:gender sdo:Male .
+ex:jane-doe a sdo:Person; 
+  sdo:spouse ex:john-doe ;
+  sdo:givenName "Jane"; 
+  sdo:familyName "Doe"; 
+  sdo:gender sdo:Female .
+
+sdo:gender a owl:SymmetricProperty .

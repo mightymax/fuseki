@@ -4,15 +4,15 @@ Docker build file for running a very basic container with [Apache Jena Fuseki](h
 
 ## Build
 ```
-docker buildx build -t mlindeman/fuseki .
+docker buildx build -t mightymax/fuseki .
 ```
 
 ## Run container
-Assuming you have a file `/tmp/rdf/example.ttl` (this example file is available in ths repo):
+Assuming you have a file `data/example.ttl` (this example file is available in this repo):
 
 ```
 docker run --rm -p 3030:3030 \
-  -v /tmp/rdf:/usr/share/data mlindeman/fuseki \
+  -v $PWD/data:/usr/share/data mlindeman/fuseki \
   --file=/usr/share/data/example.ttl /ds
 ```
 

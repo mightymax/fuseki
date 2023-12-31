@@ -1,12 +1,12 @@
-FROM openjdk:11-slim-buster
+FROM amazoncorretto:21-alpine3.18
 
-ARG FUSEKI_VERSION=4.8.0
+ARG FUSEKI_VERSION=4.10.0
 ARG DLCDN=https://dlcdn.apache.org/jena/binaries
 
 WORKDIR /opt 
 
 RUN \
-  apt update && apt install -y curl && \
+  apk --no-cache add curl && \
   curl -s ${DLCDN}/apache-jena-fuseki-${FUSEKI_VERSION}.tar.gz | tar zx
 
 EXPOSE 3030
