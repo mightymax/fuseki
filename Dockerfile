@@ -7,7 +7,10 @@ WORKDIR /opt
 
 RUN \
   apk --no-cache add curl && \
-  curl -s ${DLCDN}/apache-jena-fuseki-${FUSEKI_VERSION}.tar.gz | tar zx
+  curl -s ${DLCDN}/apache-jena-fuseki-${FUSEKI_VERSION}.tar.gz | tar zx && \
+  mv apache-jena-fuseki-${FUSEKI_VERSION} fuseki && \
+  curl -s ${DLCDN}/apache-jena-${FUSEKI_VERSION}.tar.gz | tar zx && \
+  mv apache-jena-${FUSEKI_VERSION} jena
 
 EXPOSE 3030
 
@@ -15,8 +18,9 @@ WORKDIR /opt
 COPY entrypoint.sh .
 
 ENV \
-  FUSEKI_HOME=/opt/apache-jena-fuseki-${FUSEKI_VERSION} \
-  FUSEKI_DIR=/opt/apache-jena-fuseki-${FUSEKI_VERSION} \
+  PATH=$PATH:/opt/jena/bin:/opt/fuseki/bin \
+  FUSEKI_HOME=/opt/fuseki \
+  FUSEKI_DIR=/opt/fuseki \
   FUSEKI_JAR=fuseki-server.jar \
   JAVA_OPTIONS="-Xmx2G -Xms2G"  
 
