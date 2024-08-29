@@ -6,32 +6,61 @@ Docker build file for running a container with [Apache Jena Fuseki](https://jena
 Next to Fuseki, this image also contains the Jena, containing the APIs, SPARQL engine, the TDB native RDF database and command line tools. This is not needed to run Fuseki (the Jena SPARQL server), but convineant to create TDB2 databases and other usage of the [Jena CLI tools](https://jena.apache.org/documentation/tools/).
 
 ## Build
-```bash
-docker buildx build -t mlindeman/fuseki .
+```
+docker buildx build -t mlindeman/jena:5.1.0 .
+docker tag mlindeman/jena:5.1.0 mlindeman/jena:latest
 ```
 
-## Run container
-Assuming you have a file `data/example.ttl` (this example file is available in this repo):
+## Run Fuseki server
+The image contains an example file of episodes from the TV Series "The Big Bang Theory", using (mainly) the schema.org vocabulary. You can use this example to run a Fuseki server using the following command:
+```bash
+docker run --rm -p 3030:3030 mlindeman/jena tbbt
+```
 
+The dataset can now be queried at http://localhost:3030/#/dataset/tbtt/query.
+
+An example query would be:
+```SPARQL
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix sdo: <https://schema.org/>
+prefix season: <https://ex.com/the-big-bang-theory/season/>
+
+SELECT ?title ?datePublished
+WHERE {
+  ?episode a sdo:TVEpisode ; 
+  	sdo:name ?title ; 
+   	sdo:partOfSeason season:1 ;
+    sdo:datePublished ?datePublished
+  .
+} order by ?episodeNumber
+```
+
+To run Fuseki using your own data, use something like this (assuming you have a file `./rdf/example.ttl`):
 ```bash
 docker run --rm -p 3030:3030 \
-  -v $PWD/data:/usr/share/data mlindeman/fuseki \
-  --file=/usr/share/data/example.ttl /ds
+  -v `pwd`/rdf:/data mlindeman/jena \
+  fuseki --file=/data/example.ttl /example
 ```
+The dataset can now be queried at http://localhost:3030/example.
 
 After startup, your dataset should be available with UI on http://localhost:3030/#/dataset/ds/query
 
-## Create a TDB2 RDF Store
-To create a [TDB2](https://jena.apache.org/documentation/tdb2/) from  your local RDF files, use a one time container to run of of the Jena CLI tools (in this case `tdb2.tdbloader`). See this example that will create a `tsb2` RDF Store from the `example.ttl` file:
+## Other jena tooling
+The full set of [Command-line and other tools for Jena developers](https://jena.apache.org/documentation/tools/index.html) is also availble in this image.
+
+## Common tasks:
+
+### Validate RDF for syntax errors:
 ```bash
-docker run -it --rm -v $PWD/data:/data \
-  --entrypoint tdb2.tdbloader \
-  mlindeman/fuseki --loc=/data/tdb2 /data/example.ttl
+docker run -v `pwd`/examples/:/rdf mlindeman/jena sh -c "riot --validate /rdf/*.ttl"
 ```
 
-After you have created the `tdb2` store, you can start Fuseki with it:
+### Validate RDF against a [SHACL model](https://www.w3.org/TR/shacl):
 ```bash
-docker run --rm -p 3030:3030 \
-  -v $PWD/tdb2:/tdb2 mlindeman/fuseki \
-  --loc=/tdb2 /ds
+docker run --rm -v `pwd`/examples:/rdf mlindeman/jena shacl v --shapes /rdf/model.ttl --data /rdf/tbbt.ttl
+```
+
+### Transform RDF to another format:
+```bash
+docker run -v `pwd`/examples/:/rdf mlindeman/jena rdfxml --out nt /rdf/tbbt.ttl
 ```

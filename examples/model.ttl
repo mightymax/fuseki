@@ -1,0 +1,61 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . # The RDF Concepts Vocabulary (RDF)
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> . # XML Schema Definition
+@prefix sh: <http://www.w3.org/ns/shacl#> . # W3C Shapes Constraint Language (SHACL) Vocabulary
+@prefix sdo: <https://schema.org/> . # Schema.org
+
+prefix : <https://example/com/models/>
+prefix episode: <https://ex.com/the-big-bang-theory/episode/>
+
+:episode a sh:NodeShape ;
+  sh:targetClass sdo:TVEpisode ;
+  sh:closed true ;
+  sh:ignoredProperties ( rdf:type ) ;
+  sh:property [
+    sh:path sdo:name ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:string ;
+  ] , [
+    sh:path sdo:episodeNumber ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:integer ;
+  ], [
+    sh:path sdo:partOfSeason ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:class sdo:CreativeWorkSeason ;
+  ] , [
+    sh:path sdo:datePublished ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:date ;
+  ] , [
+    sh:path sdo:creator ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:class sdo:Person ;
+  ] , [
+    sh:path sdo:director ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:class sdo:Person ;
+  ]
+.
+
+:person a sh:NodeShape ;
+  sh:targetClass sdo:Person , sdo:CreativeWorkSeason;
+  sh:closed true ;
+  sh:ignoredProperties ( rdf:type ) ;
+  sh:property [
+    sh:path sdo:name ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:datatype xsd:string ;
+  ] 
+.

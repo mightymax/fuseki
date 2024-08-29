@@ -1,0 +1,2781 @@
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix sdo: <https://schema.org/>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix wd: <http://www.wikidata.org/entity/>
+
+prefix person: <https://ex.com/the-big-bang-theory/person/>
+prefix season: <https://ex.com/the-big-bang-theory/season/>
+prefix episode: <https://ex.com/the-big-bang-theory/episode/>
+
+person:01dad1e504bd7f187a3fce7410dab7a0
+  a sdo:Person ;
+  sdo:name "Alex Yonks" .
+
+person:073c19543821c9eb3ef914508d128d08
+  a sdo:Person ;
+  sdo:name "Dave Steve Holland, Andy Gordon, Jeremy Howe" .
+
+person:0860d6122efce12147fe4823d863b27b
+  a sdo:Person ;
+  sdo:name "Stephen Engel" .
+
+person:0889c9f4598278286ef084d124f6f185
+  a sdo:Person ;
+  sdo:name "Mark Cendrowski" .
+
+person:132d8dd6d50ba6cb3efaf7d273cc2e63
+  a sdo:Person ;
+  sdo:name "Steve Holland" .
+
+person:17800b631f822ffa00da95597499fd8b
+  a sdo:Person ;
+  sdo:name "Ted Wass" .
+
+person:19914be4f026c6c9f5e35fcbade72cfd
+  a sdo:Person ;
+  sdo:name "Joel Murray" .
+
+person:24677466c85b6c6156e71e8ef1eedd41
+  a sdo:Person ;
+  sdo:name "Andrew D. Weyman" .
+
+person:26dc334e150149d3c00b7d27ce5c2ea9
+  a sdo:Person ;
+  sdo:name "Steve Goetsch" .
+
+person:27053e620e236635e04ba1ea35ea3c89
+  a sdo:Person ;
+  sdo:name "Todd Craig" .
+
+person:2f8a25110d3c104b3fbbdfd67ea9e5f9
+  a sdo:Person ;
+  sdo:name "Maria Ferrari" .
+
+person:310ba56de24c363e35f270edb53c4bba
+  a sdo:Person ;
+  sdo:name "Chuck Lorre" .
+
+person:3356ec8f06901b5e772e1361b529a598
+  a sdo:Person ;
+  sdo:name "Alex Ayers" .
+
+person:3808fd6737d852becf1289fe16058dd3
+  a sdo:Person ;
+  sdo:name "Anthony Rich" .
+
+person:43b06959ebc2c8d3defd650f7dfc6fc4
+  a sdo:Person ;
+  sdo:name "Tara Hernandez" .
+
+person:4841c46a73d575727897385451651c01
+  a sdo:Person ;
+  sdo:name "Tara Hernadnez" .
+
+person:51a975af38beae6fd464b755f21c9e8b
+  a sdo:Person ;
+  sdo:name "Gary Torvinen" .
+
+person:56811349a3f71c3b16d2d65d2bc1fd2e
+  a sdo:Person ;
+  sdo:name "Eddie Gorodetsky" .
+
+person:572c13407189947e58991c673681f3c8
+  a sdo:Person ;
+  sdo:name "Dave Goetsch" .
+
+person:5bd81264bb229c206b752177f7441167
+  a sdo:Person ;
+  sdo:name "Bill Prady" .
+
+person:5dfeb7290c9a5c140983bcdc352d8f4c
+  a sdo:Person ;
+  sdo:name "Steven Molaro" .
+
+person:63f85224a35a3c3d259c72862338a1e3
+  a sdo:Person ;
+  sdo:name "Saladin K. Patterson" .
+
+person:678eb69cadbefa0e707245653f56ab5a
+  a sdo:Person ;
+  sdo:name "David Litt" .
+
+person:67f842e55cb9102bca3713f57e198cc7
+  a sdo:Person ;
+  sdo:name "Jessica Ambrosetti" .
+
+person:69fe405c5f18c3fafe2969ee105d9a60
+  a sdo:Person ;
+  sdo:name "Giuseppe Graziano" .
+
+person:6e2e8d0c2bb0cdb7facc7dc7db2b3c69
+  a sdo:Person ;
+  sdo:name "Saladin Patterson" .
+
+person:709daad1964cbc38370524a22bbbab5a
+  a sdo:Person ;
+  sdo:name "Nicole Lorre" .
+
+person:78e3dce9f6c1915b3d71d6c0d2a9d8e5
+  a sdo:Person ;
+  sdo:name "Daley Haggar" .
+
+person:7ad64bb59aad72f407aabbd5bbcc64a2
+  a sdo:Person ;
+  sdo:name "Andy Gordon" .
+
+person:7c82158e653080e7cfc5f626714eb4a8
+  a sdo:Person ;
+  sdo:name "Ph.D" .
+
+person:7f97123b57fe024d07bff9e604d100fa
+  a sdo:Person ;
+  sdo:name "David Saltzberg" .
+
+person:7ff893647a4767f13358f90cf70a4fbd
+  a sdo:Person ;
+  sdo:name "Trevor Alper" .
+
+person:8769ede90b9831268d66eb1c47a52f89
+  a sdo:Person ;
+  sdo:name "Jeremy Howe" .
+
+person:8b59820624740568a9533b1ed1a517c1
+  a sdo:Person ;
+  sdo:name "Jennifer Glickman" .
+
+person:90e95e9f853f4dc059c9cedfcfdbcedb
+  a sdo:Person ;
+  sdo:name "Adam Faberman" .
+
+person:95efb243f19af809b8e1b342aab2d45f
+  a sdo:Person ;
+  sdo:name "James Burrows" .
+
+person:9651958e0a9cd2eb0dc5a3b475374c3f
+  a sdo:Person ;
+  sdo:name "Peter Chakos" .
+
+person:9655c9eeb04654d4a62fc532a818b8b7
+  a sdo:Person ;
+  sdo:name "Gay Linvill" .
+
+person:9931c811bb092a44d5b0496f0d3e59cc
+  a sdo:Person ;
+  sdo:name "Billy Prady" .
+
+person:996223bfb4fd6c799eab3390991c039d
+  a sdo:Person ;
+  sdo:name "Erik Kaplan" .
+
+person:9adb2e62243afa7cb78dc251cbe5c5d2
+  a sdo:Person ;
+  sdo:name "Kristy Cecil" .
+
+person:c55dc717c072cdce18ab3624965df312
+  a sdo:Person ;
+  sdo:name "Richard Rosenstock" .
+
+person:cc54bbb1342b286e5d1abf936a9dacbb
+  a sdo:Person ;
+  sdo:name "Jermey Howe" .
+
+person:cdbb38ba8ca3794a23869fd247500864
+  a sdo:Person ;
+  sdo:name "Andrew Roth" .
+
+person:d1437beef61d1d50552dcf619fae6881
+  a sdo:Person ;
+  sdo:name "Steven Molaro, Dave Goetsch, Alex Yonks" .
+
+person:d34506c455f4aec941b9c07197b766d5
+  a sdo:Person ;
+  sdo:name "Lee Aronsohn" .
+
+person:d5e81aae1cc9a8df5a21013518c27a3c
+  a sdo:Person ;
+  sdo:name "Jim Reynolds" .
+
+person:db275e83072a9a8ea66de1eaad41890a
+  a sdo:Person ;
+  sdo:name "Robert Cohen" .
+
+person:dbb7d986d57a87f78c4059857fb125c0
+  a sdo:Person ;
+  sdo:name "Tim Doyle" .
+
+person:dc5a5c2f78868faa240833d7a7264b4b
+  a sdo:Person ;
+  sdo:name "Nikki Lorre" .
+
+person:e6da4ec9730eb869d1fc62aef933b30f
+  a sdo:Person ;
+  sdo:name "Eric Kaplan" .
+
+person:f38aaba25ed1aa870845975f53a1372d
+  a sdo:Person ;
+  sdo:name "Anthony Del Broccolo" .
+
+person:f7ff178d861f373d30554216aa9f2e88
+  a sdo:Person ;
+  sdo:name "Howard Murray" .
+
+season:1
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 1" .
+
+season:10
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 10" .
+
+season:11
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 11" .
+
+season:12
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 12" .
+
+season:2
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 2" .
+
+season:3
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 3" .
+
+season:4
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 4" .
+
+season:5
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 5" .
+
+season:6
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 6" .
+
+season:7
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 7" .
+
+season:8
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 8" .
+
+season:9
+  a sdo:CreativeWorkSeason ;
+  sdo:name "The Big Bang Theory - Season 9" .
+
+episode:02b783e3e4d8f1e1d923e16d3060fdb2
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2013-04-25"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Closure Alternative" ;
+  sdo:partOfSeason season:6 .
+
+episode:03737c4fd5bd0f2bd826b467c7d7c592
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2012-10-11"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Higgs Boson Observation" ;
+  sdo:partOfSeason season:6 .
+
+episode:039adecc086bc02835b732b2e9ce3819
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:8769ede90b9831268d66eb1c47a52f89 ;
+  sdo:datePublished "2018-12-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The VCR Illumination" ;
+  sdo:partOfSeason season:12 .
+
+episode:04ddb2acbc53c5148f05e693431dc488
+  a sdo:TVEpisode ;
+  sdo:creator person:5dfeb7290c9a5c140983bcdc352d8f4c, person:67f842e55cb9102bca3713f57e198cc7, person:709daad1964cbc38370524a22bbbab5a, person:cdbb38ba8ca3794a23869fd247500864 ;
+  sdo:datePublished "2009-04-27"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Vegas Renormalization" ;
+  sdo:partOfSeason season:2 .
+
+episode:04f8f0ba885825335fbdaec8b5b0107f
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-03-14"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Closet Reconfiguration" ;
+  sdo:partOfSeason season:6 .
+
+episode:06735619fa3e505e07304d016681d621
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:c55dc717c072cdce18ab3624965df312, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2010-03-22"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Pants Alternative" ;
+  sdo:partOfSeason season:3 .
+
+episode:084d83a0237a07633df66861c8533947
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5bd81264bb229c206b752177f7441167, person:c55dc717c072cdce18ab3624965df312, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2009-10-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Gothowitz Deviation" ;
+  sdo:partOfSeason season:3 .
+
+episode:08aa54e04bfbe3a6c4f67e0984e09c0a
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2008-03-24"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Loobenfeld Decay" ;
+  sdo:partOfSeason season:1 .
+
+episode:0936b54bb81216c58cf7cdf27516e8ec
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2010-05-24"^^xsd:date ;
+  sdo:director person:9651958e0a9cd2eb0dc5a3b475374c3f ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Lunar Excitation" ;
+  sdo:partOfSeason season:3 .
+
+episode:0a3a11de16a17fb43fae789e12009411
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2015-04-23"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Graduation Transmission" ;
+  sdo:partOfSeason season:8 .
+
+episode:0a650a2087b1c55d5b2b147f94316f85
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2011-09-22"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Skank Reflex Analysis" ;
+  sdo:partOfSeason season:5 .
+
+episode:0b1f2c0ff08cca364669f6d3763fdd9b
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167 ;
+  sdo:datePublished "2007-09-24"^^xsd:date ;
+  sdo:director person:95efb243f19af809b8e1b342aab2d45f ;
+  sdo:episodeNumber 1 ;
+  sdo:name "Pilot" ;
+  sdo:partOfSeason season:1 .
+
+episode:0c63564ca83a64acf27cca3832d50e2c
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2012-03-29"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Transporter Malfunction" ;
+  sdo:partOfSeason season:5 .
+
+episode:0cdd78b5904f611bfd708ffe92b062cc
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-12-11"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Clean Room Infiltration" ;
+  sdo:partOfSeason season:8 .
+
+episode:0f5095bea6c1a641fd2468d1d053fe5b
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2013-11-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Proton Displacement" ;
+  sdo:partOfSeason season:7 .
+
+episode:0fc1d96ce6706b5d8e991c007e5ec599
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-12-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Cooper Extraction" ;
+  sdo:partOfSeason season:7 .
+
+episode:11bca46b89918eb9e29664c13d107c5e
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-05-15"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 24 ;
+  sdo:name "The Status Quo Combustion" ;
+  sdo:partOfSeason season:7 .
+
+episode:1257a9c4c2f085884fc0d0b2a116d150
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2016-02-04"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Meemaw Materialization" ;
+  sdo:partOfSeason season:9 .
+
+episode:147defc900d2b9536826e74c02b8f001
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-05-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Proton Resurgence" ;
+  sdo:partOfSeason season:6 .
+
+episode:15ab9eea9a113df3280e79c606065a3f
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2018-05-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Sibling Realignment" ;
+  sdo:partOfSeason season:11 .
+
+episode:1631e2116487146284d03636d4d83118
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:8769ede90b9831268d66eb1c47a52f89, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2017-11-30"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Bitcoin Entanglement" ;
+  sdo:partOfSeason season:11 .
+
+episode:18b366bf7aa0359c6a649515f7337884
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-12-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Confidence Erosion" ;
+  sdo:partOfSeason season:11 .
+
+episode:194e3bbb6691c58a877a1ac363aa430d
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2010-10-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Zazzy Substitution" ;
+  sdo:partOfSeason season:4 .
+
+episode:1999b55f90be3b927b9ab33da4522d57
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-04-24"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Anything Can Happen Recurrence" ;
+  sdo:partOfSeason season:7 .
+
+episode:19c89513b4c2b0bcaf6b06c7102d1693
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312, person:d34506c455f4aec941b9c07197b766d5, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2010-03-08"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Precious Fragmentation" ;
+  sdo:partOfSeason season:3 .
+
+episode:1a16cb27cbb4944f6c883b6db0fda425
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:7c82158e653080e7cfc5f626714eb4a8, person:7f97123b57fe024d07bff9e604d100fa, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2014-11-20"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Champagne Reflection" ;
+  sdo:partOfSeason season:8 .
+
+episode:1a3f72f82dba6e8a91083f7be5d42ef0
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-04-26"^^xsd:date ;
+  sdo:director person:dc5a5c2f78868faa240833d7a7264b4b ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Monetary Insufficiency" ;
+  sdo:partOfSeason season:11 .
+
+episode:1b15fa687637064b05fcc64c577ef21c
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:db275e83072a9a8ea66de1eaad41890a ;
+  sdo:datePublished "2007-10-01"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Big Bran Hypothesis" ;
+  sdo:partOfSeason season:1 .
+
+episode:1cada6a007dc0ba2e53371952ef94257
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:8b59820624740568a9533b1ed1a517c1 ;
+  sdo:datePublished "2008-11-17"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Lizard–Spock Expansion" ;
+  sdo:partOfSeason season:2 .
+
+episode:1ea0693331ad90f8222d437ac3f2faae
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2015-04-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Skywalker Incursion" ;
+  sdo:partOfSeason season:8 .
+
+episode:2061d748eda81ecd56aded516458e8e6
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2009-11-16"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Adhesive Duck Deficiency" ;
+  sdo:partOfSeason season:3 .
+
+episode:20b4a9f85ec27bc4a4f3e857280df3da
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2010-12-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Alien Parasite Hypothesis" ;
+  sdo:partOfSeason season:4 .
+
+episode:2376881eb450570f45aea555af0f9bca
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:8769ede90b9831268d66eb1c47a52f89, person:996223bfb4fd6c799eab3390991c039d, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2016-11-17"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Geology Elevation" ;
+  sdo:partOfSeason season:10 .
+
+episode:2417de6743d7956aa6e2090ab2dc6082
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-04-16"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Communication Deterioration" ;
+  sdo:partOfSeason season:8 .
+
+episode:249094bd2fdca80b7765a4949b93c84c
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2011-10-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Wiggly Finger Catalyst" ;
+  sdo:partOfSeason season:5 .
+
+episode:24dbf57fc74fbb057323d8f9a4e4dc79
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c ;
+  sdo:datePublished "2016-10-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Cohabitation Experimentation" ;
+  sdo:partOfSeason season:10 .
+
+episode:266366d680ff60b84e6ec96cd171d4ce
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2015-10-26"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Helium Insufficiency" ;
+  sdo:partOfSeason season:9 .
+
+episode:280a060329b77b7a5b786beaf3aeccd9
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2018-04-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Reclusive Potential" ;
+  sdo:partOfSeason season:11 .
+
+episode:290e9546b0d91b4824032de1886afe78
+  a sdo:TVEpisode ;
+  sdo:creator person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:78e3dce9f6c1915b3d71d6c0d2a9d8e5, person:c55dc717c072cdce18ab3624965df312 ;
+  sdo:datePublished "2009-01-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Killer Robot Instability" ;
+  sdo:partOfSeason season:2 .
+
+episode:2a82cfa02231638f6f0652b1be75a33b
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:dbb7d986d57a87f78c4059857fb125c0 ;
+  sdo:datePublished "2008-10-13"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Griffin Equivalency" ;
+  sdo:partOfSeason season:2 .
+
+episode:2b4d95ad67ad14b2a6fcf8f8f5b83e95
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-01-18"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Separation Triangulation" ;
+  sdo:partOfSeason season:11 .
+
+episode:2cbef9385ad5e76aa81c7a64076732e2
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2010-10-14"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Hot Troll Deviation" ;
+  sdo:partOfSeason season:4 .
+
+episode:2ce2f48a2c3ace9b02f2092c30d74902
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63 ;
+  sdo:datePublished "2009-10-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Pirate Solution" ;
+  sdo:partOfSeason season:3 .
+
+episode:3268701591042da9d97e8b0439d9ca4c
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:78e3dce9f6c1915b3d71d6c0d2a9d8e5, person:c55dc717c072cdce18ab3624965df312, person:dbb7d986d57a87f78c4059857fb125c0 ;
+  sdo:datePublished "2008-11-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Cooper–Nowitzki Theorem" ;
+  sdo:partOfSeason season:2 .
+
+episode:32f38ccac7f2cefbd856f2c3023490f2
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-09-26"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Hofstadter Insufficiency" ;
+  sdo:partOfSeason season:7 .
+
+episode:351aaeb996bc896d23df290db6dd4d5c
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-01-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Occupation Recalibration" ;
+  sdo:partOfSeason season:7 .
+
+episode:3552863507af3ffbb711649243801300
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-09-21"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Matrimonial Momentum" ;
+  sdo:partOfSeason season:9 .
+
+episode:355bfd082164c8b79e3d82a7cc28b360
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-11-29"^^xsd:date ;
+  sdo:director person:9651958e0a9cd2eb0dc5a3b475374c3f ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Parking Spot Escalation" ;
+  sdo:partOfSeason season:6 .
+
+episode:3593206c7ac782d06f2eccca89c6270d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-05-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 24 ;
+  sdo:name "The Countdown Reflection" ;
+  sdo:partOfSeason season:5 .
+
+episode:376624a9747e44ef635dda6f3cc2f7d6
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2019-01-17"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Confirmation Polarization" ;
+  sdo:partOfSeason season:12 .
+
+episode:38e08f76945255bcd41c0bdc8383a7b4
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-10-25"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Holographic Excitation" ;
+  sdo:partOfSeason season:6 .
+
+episode:3911d929bf5df90dc49e29fcc75f54e7
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2011-01-20"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Love Car Displacement" ;
+  sdo:partOfSeason season:4 .
+
+episode:3ba6c48fa7b4e4f8a775767b96d9f1d2
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2019-04-18"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Inspiration Deprivation" ;
+  sdo:partOfSeason season:12 .
+
+episode:3be9b121208e2cc3ae0ee06bc96ea017
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2012-01-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Shiny Trinket Maneuver" ;
+  sdo:partOfSeason season:5 .
+
+episode:3cc8aa5a618bddb310812f257d6282e3
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:9931c811bb092a44d5b0496f0d3e59cc, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-04-26"^^xsd:date ;
+  sdo:director person:9651958e0a9cd2eb0dc5a3b475374c3f ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Stag Convergence" ;
+  sdo:partOfSeason season:5 .
+
+episode:3d8ab53eca358cd9c426c3969e81d374
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-01-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Holiday Summation" ;
+  sdo:partOfSeason season:10 .
+
+episode:3eaea9716dd633e00745fec984b3170e
+  a sdo:TVEpisode ;
+  sdo:creator person:073c19543821c9eb3ef914508d128d08, person:d1437beef61d1d50552dcf619fae6881 ;
+  sdo:datePublished "2017-11-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Proton Regeneration" ;
+  sdo:partOfSeason season:11 .
+
+episode:3f7243ca1b06c61c5a3d8980096b47da
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-09-27"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Wedding Gift Wormhole" ;
+  sdo:partOfSeason season:12 .
+
+episode:3ff8a98718508e0dc2c364738c1e1b04
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2014-09-29"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The First Pitch Insufficiency" ;
+  sdo:partOfSeason season:8 .
+
+episode:401e0a21a1cbf75bfb394ee2df806050
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-03-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Contractual Obligation Implementation" ;
+  sdo:partOfSeason season:6 .
+
+episode:40cdc7b05eec5926ed5d28c3a37a0b74
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2008-09-29"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Codpiece Topology" ;
+  sdo:partOfSeason season:2 .
+
+episode:40f61952342a93ba831e4553072c10e3
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-03-08"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Weekend Vortex" ;
+  sdo:partOfSeason season:5 .
+
+episode:411a9afd0bc95758b04c7c7af5f3008b
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c ;
+  sdo:datePublished "2008-09-22"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Bad Fish Paradigm" ;
+  sdo:partOfSeason season:2 .
+
+episode:424cabaa11b97363fccd432346d81031
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-04-21"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Viewing Party Combustion" ;
+  sdo:partOfSeason season:9 .
+
+episode:4293d8b1aea4cb23bf60eca099b5e262
+  a sdo:TVEpisode ;
+  sdo:creator person:5dfeb7290c9a5c140983bcdc352d8f4c ;
+  sdo:datePublished "2009-03-30"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Dead Hooker Juxtaposition" ;
+  sdo:partOfSeason season:2 .
+
+episode:4320d47e4021ecc7f9abf9ee98a7ef43
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8 ;
+  sdo:datePublished "2009-04-13"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Hofstadter Isotope" ;
+  sdo:partOfSeason season:2 .
+
+episode:44aa8be1aa01ad33e1a128875292f0ab
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-02-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Friendship Contraction" ;
+  sdo:partOfSeason season:5 .
+
+episode:44ac15d8ad77778847aeb76df883c5f4
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-02-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Comic Book Store Regeneration" ;
+  sdo:partOfSeason season:8 .
+
+episode:4569ee24194d9985b0e72bff1118fa70
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312 ;
+  sdo:datePublished "2008-12-08"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Vartabedian Conundrum" ;
+  sdo:partOfSeason season:2 .
+
+episode:46723268b4a21755e23fd59104177ac8
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2010-02-08"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Large Hadron Collision" ;
+  sdo:partOfSeason season:3 .
+
+episode:4834f4d61bf849ed29fb024467d60701
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:7ff893647a4767f13358f90cf70a4fbd, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-04-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Tenant Disassociation" ;
+  sdo:partOfSeason season:11 .
+
+episode:4a22a8044cc31396a73a5fb02de27a71
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2017-10-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Retraction Reaction" ;
+  sdo:partOfSeason season:11 .
+
+episode:4d77386c36e6ead5042bf391a829fbf9
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-09-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Conjugal Conjecture" ;
+  sdo:partOfSeason season:10 .
+
+episode:4e8576c1d11fdde211c064b6a3ec4a7f
+  a sdo:TVEpisode ;
+  sdo:creator person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2009-09-28"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Jiminy Conjecture" ;
+  sdo:partOfSeason season:3 .
+
+episode:4f33de1beef2d7a1a0b8ec1ebd365efc
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2011-02-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Thespian Catalyst" ;
+  sdo:partOfSeason season:4 .
+
+episode:4ff9ca1ca90c156b2a7b4e3de7bfdf5f
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2010-05-17"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Staircase Implementation" ;
+  sdo:partOfSeason season:3 .
+
+episode:51a1b654ccbb9caeb4d2180abe958375
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-01-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Bakersfield Expedition" ;
+  sdo:partOfSeason season:6 .
+
+episode:5205a1a4506979307158dd216251eb94
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2017-11-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Geology Methodology" ;
+  sdo:partOfSeason season:11 .
+
+episode:533f7b4aebbfec94ad801f0aae219ba2
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2010-12-16"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Justice League Recombination" ;
+  sdo:partOfSeason season:4 .
+
+episode:5647908614b91d40854534a5a0bb6a71
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-05-09"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Love Spell Potential" ;
+  sdo:partOfSeason season:6 .
+
+episode:578a1e389c11f128d249da15da63dee7
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:5bd81264bb229c206b752177f7441167, person:c55dc717c072cdce18ab3624965df312, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2008-12-15"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Bath Item Gift Hypothesis" ;
+  sdo:partOfSeason season:2 .
+
+episode:5792fb91c8addfc73ba784f8f4fbdd83
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2019-05-02"^^xsd:date ;
+  sdo:director person:dc5a5c2f78868faa240833d7a7264b4b ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Plagiarism Schism" ;
+  sdo:partOfSeason season:12 .
+
+episode:582d21bac97be124884be37246bfb26a
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-05-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 24 ;
+  sdo:name "The Bow Tie Asymmetry" ;
+  sdo:partOfSeason season:11 .
+
+episode:592ff7c1fdd7d49f0f2d4882dbc0db73
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2009-10-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Creepy Candy Coating Corollary" ;
+  sdo:partOfSeason season:3 .
+
+episode:59fb905188d7c9e793577df05e5db66b
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-02-23"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Comic-Con Conundrum" ;
+  sdo:partOfSeason season:10 .
+
+episode:59fcdc182adba8d002e19dbd3e9f46bb
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-09-22"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Locomotion Interruption" ;
+  sdo:partOfSeason season:8 .
+
+episode:5aeb8a1ba6799512ae84f2c353a61838
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-11-21"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Thanksgiving Decoupling" ;
+  sdo:partOfSeason season:7 .
+
+episode:5bdd1114e4c4063e7de5c01b42af2b6b
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-12-17"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Opening Night Excitation" ;
+  sdo:partOfSeason season:9 .
+
+episode:5c4ae1221b16ed8bda8485d37609fbe7
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2014-02-27"^^xsd:date ;
+  sdo:director person:9655c9eeb04654d4a62fc532a818b8b7 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Table Polarization" ;
+  sdo:partOfSeason season:7 .
+
+episode:5dc29a0884d83c91f87b93b66aac876a
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8b59820624740568a9533b1ed1a517c1 ;
+  sdo:datePublished "2008-04-14"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Jerusalem Duality" ;
+  sdo:partOfSeason season:1 .
+
+episode:631d49fc2065a71f5253fc4e28592c81
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2010-11-04"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Apology Insufficiency" ;
+  sdo:partOfSeason season:4 .
+
+episode:6374fa55c79c5b5b375f3b83481e8c90
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-10-11"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Tam Turbulence" ;
+  sdo:partOfSeason season:12 .
+
+episode:648ae5db2553a3372d5076629d3ddd95
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2010-09-30"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Cruciferous Vegetable Amplification" ;
+  sdo:partOfSeason season:4 .
+
+episode:65d431ec8575c54bdae9fb8ba5a828da
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-02-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Emotion Detection Automation" ;
+  sdo:partOfSeason season:10 .
+
+episode:676f3d33ecf472ffed0bdeb291cd66f1
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-11-08"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Habitation Configuration" ;
+  sdo:partOfSeason season:6 .
+
+episode:69287877f99eb5d2d77d7104b2dd1c78
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-12-13"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Santa Simulation" ;
+  sdo:partOfSeason season:6 .
+
+episode:69f11f66d9a375f484f69892af228303
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8, person:678eb69cadbefa0e707245653f56ab5a, person:db275e83072a9a8ea66de1eaad41890a ;
+  sdo:datePublished "2007-10-29"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Middle-earth Paradigm" ;
+  sdo:partOfSeason season:1 .
+
+episode:6bae6f4f293ff34e81387f842efeca9d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:c55dc717c072cdce18ab3624965df312, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2009-11-23"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Vengeance Formulation" ;
+  sdo:partOfSeason season:3 .
+
+episode:6c4117d1b089ffc0ba598c4521029c69
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2011-02-24"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Toast Derivation" ;
+  sdo:partOfSeason season:4 .
+
+episode:6cc22b7e19cb317918d168794dd1a71c
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2009-03-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Cushion Saturation" ;
+  sdo:partOfSeason season:2 .
+
+episode:6cf5a38cb92ee5cc4043d6ab1d765751
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-11-01"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Extract Obliteration" ;
+  sdo:partOfSeason season:6 .
+
+episode:6de865816c5b9f76d7fcec4bae1f85cb
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-09-27"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Date Night Variable" ;
+  sdo:partOfSeason season:6 .
+
+episode:6e04eddc65043c43e937196f428bd24d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2011-12-08"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Speckerman Recurrence" ;
+  sdo:partOfSeason season:5 .
+
+episode:6ebf4f305ec025f42d7e937930d3fb69
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2011-09-22"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Infestation Hypothesis" ;
+  sdo:partOfSeason season:5 .
+
+episode:6f6e7d3dea0129bb4aefe62428d95505
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-11-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Mystery Date Observation" ;
+  sdo:partOfSeason season:9 .
+
+episode:6fb9a478ee52b00c6254c6cd34152775
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:d5e81aae1cc9a8df5a21013518c27a3c, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2016-01-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Sales Call Sublimation" ;
+  sdo:partOfSeason season:9 .
+
+episode:70c3fad7e7ec750d437b4a5b861f40d6
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2009-12-14"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Maternal Congruence" ;
+  sdo:partOfSeason season:3 .
+
+episode:726e5941b694bc2f0ef3beae96c43df2
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-04-27"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Cognition Regeneration" ;
+  sdo:partOfSeason season:10 .
+
+episode:7299fa3f8f7a1b5e94d1b4d5c440e958
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:db275e83072a9a8ea66de1eaad41890a ;
+  sdo:datePublished "2007-11-12"^^xsd:date ;
+  sdo:director person:17800b631f822ffa00da95597499fd8b ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Grasshopper Experiment" ;
+  sdo:partOfSeason season:1 .
+
+episode:741f4ff0ed10b3de6dd6741055a4abf8
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2016-04-28"^^xsd:date ;
+  sdo:director person:dc5a5c2f78868faa240833d7a7264b4b ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Fermentation Bifurcation" ;
+  sdo:partOfSeason season:9 .
+
+episode:74f5928a768df5729acb43e6eb1236e3
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2009-02-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Financial Permeability" ;
+  sdo:partOfSeason season:2 .
+
+episode:75a6b91388a81338a6eeaf7aab0c1b73
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-05-12"^^xsd:date ;
+  sdo:director person:f7ff178d861f373d30554216aa9f2e88 ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Engagement Reaction" ;
+  sdo:partOfSeason season:4 .
+
+episode:77a657e9fc7384959c464700ec855396
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-11-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Prom Equivalency" ;
+  sdo:partOfSeason season:8 .
+
+episode:77ca742b74cf73878bb8df71a2a97fa1
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-04-03"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Indecision Amalgamation" ;
+  sdo:partOfSeason season:7 .
+
+episode:78810f19e70b1098f6c47adbc964844a
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:8769ede90b9831268d66eb1c47a52f89, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-10-25"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Imitation Perturbation" ;
+  sdo:partOfSeason season:12 .
+
+episode:78835da3ea50095f8fd266e243168ab4
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-02-16"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Allowance Evaporation" ;
+  sdo:partOfSeason season:10 .
+
+episode:798112a7b285925175a5ccd6beb150ee
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:56811349a3f71c3b16d2d65d2bc1fd2e, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-04-28"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Agreement Dissection" ;
+  sdo:partOfSeason season:4 .
+
+episode:7984e2c47569126b31d708d06e660f1d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-12-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Discovery Dissipation" ;
+  sdo:partOfSeason season:7 .
+
+episode:7a56929c3298162a36e0fe76f1828991
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312 ;
+  sdo:datePublished "2009-01-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Friendship Algorithm" ;
+  sdo:partOfSeason season:2 .
+
+episode:7acee73dd405f90e988814136b0e7128
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2011-11-17"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Flaming Spittoon Acquisition" ;
+  sdo:partOfSeason season:5 .
+
+episode:7bc263be4f865c18e505464f705643fe
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2017-01-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Romance Recalibration" ;
+  sdo:partOfSeason season:10 .
+
+episode:7c2c94091b3f250b4efb2351653c9113
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2017-03-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Escape Hatch Identification" ;
+  sdo:partOfSeason season:10 .
+
+episode:7cb547dd13be085a714a4f86d7faa538
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-02-25"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Celebration Experimentation" ;
+  sdo:partOfSeason season:9 .
+
+episode:7d4d59283302518d650c33d59be9e3ad
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:8769ede90b9831268d66eb1c47a52f89, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2019-05-16"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Change Constant" ;
+  sdo:partOfSeason season:12 .
+
+episode:7db8cc16694b0a8136fc8cb4af70e928
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:8b59820624740568a9533b1ed1a517c1, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2007-11-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Dumpling Paradox" ;
+  sdo:partOfSeason season:1 .
+
+episode:7dd115d8b94912cec382142efd9e87f5
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-03-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Friendship Turbulence" ;
+  sdo:partOfSeason season:7 .
+
+episode:7ef1e25c80dc7edb7a4e91200ef0ea91
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:90e95e9f853f4dc059c9cedfcfdbcedb ;
+  sdo:datePublished "2017-10-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Relaxation Integration" ;
+  sdo:partOfSeason season:11 .
+
+episode:7f9cdf904e1166c39a858e3afc79a67e
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-10-20"^^xsd:date ;
+  sdo:director person:f7ff178d861f373d30554216aa9f2e88 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Rhinitis Revelation" ;
+  sdo:partOfSeason season:5 .
+
+episode:805d2cf82e8ca46e3af9611c354d49a1
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:678eb69cadbefa0e707245653f56ab5a, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2007-10-15"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Luminous Fish Effect" ;
+  sdo:partOfSeason season:1 .
+
+episode:8075422801646d7bf2c97f0b96c8e4f1
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2012-11-15"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The 43 Peculiarity" ;
+  sdo:partOfSeason season:6 .
+
+episode:8176ea002247b3dc94f05ee0b2f21083
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-04-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Hawking Excitation" ;
+  sdo:partOfSeason season:5 .
+
+episode:82249adac4f16e13ff7224209f6c8ae2
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-01-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Egg Salad Equivalency" ;
+  sdo:partOfSeason season:6 .
+
+episode:8379b8ee8fd7243262504924c438b90b
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2019-01-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Propagation Proposition" ;
+  sdo:partOfSeason season:12 .
+
+episode:845e6ca9ee735e7485c2dd16cdb5dbd6
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2018-10-04"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Procreation Calculation" ;
+  sdo:partOfSeason season:12 .
+
+episode:85b5ccdbee097b2cac4cfc5adb3096c7
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-02-18"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Positive Negative Reaction" ;
+  sdo:partOfSeason season:9 .
+
+episode:87bc943a9001ca2ab69c77752019bc7d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-05-11"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 24 ;
+  sdo:name "The Long Distance Dissonance" ;
+  sdo:partOfSeason season:10 .
+
+episode:8c8956169498d498d1066b69cee59fff
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-01-04"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Matrimonial Metric" ;
+  sdo:partOfSeason season:11 .
+
+episode:8c8feb9b3cc449c8bf2b61627edb220d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-03-08"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Athenaeum Allocation" ;
+  sdo:partOfSeason season:11 .
+
+episode:8dc4c1058b1a8cfd299da38d82d0f4ba
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2015-09-28"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Separation Oscillation" ;
+  sdo:partOfSeason season:9 .
+
+episode:8df86cf5b7c4c41e2797c988aaf5cc9f
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2011-03-31"^^xsd:date ;
+  sdo:director person:9651958e0a9cd2eb0dc5a3b475374c3f ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Zarnecki Incursion" ;
+  sdo:partOfSeason season:4 .
+
+episode:8ea0edf65be284c7b129e7effce2ae46
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-05-05"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Line Substitution Solution" ;
+  sdo:partOfSeason season:9 .
+
+episode:8f8c78f0dc88b0fefe49fb130a4dd6b8
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-12-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Fish Guts Displacement" ;
+  sdo:partOfSeason season:6 .
+
+episode:901ad829daea8c6698052065e6f0832f
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-09-22"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Junior Professor Solution" ;
+  sdo:partOfSeason season:8 .
+
+episode:905dca86326d5b9524f489e602afbe6b
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-01-14"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Empathy Optimization" ;
+  sdo:partOfSeason season:9 .
+
+episode:9066a067319b5f65650f1a4ff8600280
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:56811349a3f71c3b16d2d65d2bc1fd2e, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-03-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Prestidigitation Approximation" ;
+  sdo:partOfSeason season:4 .
+
+episode:926cbfcd7204dae2c6040e8203dd87f5
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-01-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Bus Pants Utilization" ;
+  sdo:partOfSeason season:4 .
+
+episode:92f206df5c44da80995643805b8e3ccc
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:3356ec8f06901b5e772e1361b529a598, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-10-18"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Planetarium Collision" ;
+  sdo:partOfSeason season:12 .
+
+episode:9323271858a0c60cbc16082c50699d51
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-04-04"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Tenure Turbulence" ;
+  sdo:partOfSeason season:6 .
+
+episode:94a080c8af83129603efcb1676851a92
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:56811349a3f71c3b16d2d65d2bc1fd2e, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-05-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 24 ;
+  sdo:name "The Roommate Transmogrification" ;
+  sdo:partOfSeason season:4 .
+
+episode:9574dc85865e009419e43f69f4710f1a
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:4841c46a73d575727897385451651c01, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-03-29"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Gates Excitation" ;
+  sdo:partOfSeason season:11 .
+
+episode:96e1d3a4a6c05611510e9ec02e60617e
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-09-29"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Pulled Groin Extrapolation" ;
+  sdo:partOfSeason season:5 .
+
+episode:98ecc2202b2ab4085bd63bc33ab3a92e
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2008-10-20"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Euclid Alternative" ;
+  sdo:partOfSeason season:2 .
+
+episode:9adc318ffa95d7d9d133a4946f959167
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c ;
+  sdo:datePublished "2011-10-27"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Good Guy Fluctuation" ;
+  sdo:partOfSeason season:5 .
+
+episode:9b278e43a33bcbfa0698fce5d6ead8b2
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-09-26"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Military Miniaturization" ;
+  sdo:partOfSeason season:10 .
+
+episode:9ba923989a304875e9c86bf22ee5135c
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-11-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Isolation Permutation" ;
+  sdo:partOfSeason season:5 .
+
+episode:9be57d5458f80db0d0699b4053ac9e0a
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2012-02-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Vacation Solution" ;
+  sdo:partOfSeason season:5 .
+
+episode:9d5abc3889e0250e22d2bac30427c483
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2010-10-21"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Desperation Emanation" ;
+  sdo:partOfSeason season:4 .
+
+episode:9d84fc8308f2a0ebe322cd3c7e61e73a
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2015-04-30"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Maternal Combustion" ;
+  sdo:partOfSeason season:8 .
+
+episode:9f1cc9cae982fa2f3a87a9ecddf533de
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-10-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Perspiration Implementation" ;
+  sdo:partOfSeason season:9 .
+
+episode:9fc490a1af50e8f067c04726f5ca4eb0
+  a sdo:TVEpisode ;
+  sdo:creator person:27053e620e236635e04ba1ea35ea3c89, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:51a975af38beae6fd464b755f21c9e8b, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2012-02-23"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Werewolf Transformation" ;
+  sdo:partOfSeason season:5 .
+
+episode:a0dfd732d9aded7bbddd267cae73112d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-04-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Relationship Diremption" ;
+  sdo:partOfSeason season:7 .
+
+episode:a15cd632dc53b9aa9f84a73465c6fcc7
+  a sdo:TVEpisode ;
+  sdo:creator person:5dfeb7290c9a5c140983bcdc352d8f4c, person:709daad1964cbc38370524a22bbbab5a, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2008-10-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Barbarian Sublimation" ;
+  sdo:partOfSeason season:2 .
+
+episode:a289d6ad248a52aaa2b0ca1fffcb7d34
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:69fe405c5f18c3fafe2969ee105d9a60 ;
+  sdo:datePublished "2017-03-30"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Collaboration Fluctuation" ;
+  sdo:partOfSeason season:10 .
+
+episode:a4569dca4ec65c891e53fd2e02525129
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c ;
+  sdo:datePublished "2007-10-08"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Fuzzy Boots Corollary" ;
+  sdo:partOfSeason season:1 .
+
+episode:a544b1c30ba032c6cc76406f888cf849
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2010-09-23"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Robotic Manipulation" ;
+  sdo:partOfSeason season:4 .
+
+episode:a59a53a5cb0f973310682bab67a8487a
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2019-03-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Conference Valuation" ;
+  sdo:partOfSeason season:12 .
+
+episode:a59bb028427e8785a218715213c988dd
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8b59820624740568a9533b1ed1a517c1 ;
+  sdo:datePublished "2007-10-22"^^xsd:date ;
+  sdo:director person:24677466c85b6c6156e71e8ef1eedd41 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Hamburger Postulate" ;
+  sdo:partOfSeason season:1 .
+
+episode:a6e50009c321979c94cf9237c235af64
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2013-02-14"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Tangible Affection Proof" ;
+  sdo:partOfSeason season:6 .
+
+episode:a8baac0e49c65bcfdc9aaf5ff196d78a
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2019-01-31"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Meteorite Manifestation" ;
+  sdo:partOfSeason season:12 .
+
+episode:a8fd7f3d196b44ab5307e733036da2a0
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-01-29"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Anxiety Optimization" ;
+  sdo:partOfSeason season:8 .
+
+episode:a90e224111e7dd78a5c691c0d8a9d05a
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:c55dc717c072cdce18ab3624965df312, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2009-03-16"^^xsd:date ;
+  sdo:director person:9651958e0a9cd2eb0dc5a3b475374c3f ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Work Song Nanocluster" ;
+  sdo:partOfSeason season:2 .
+
+episode:a94bb11d24f77d0ecf11ad1a8e551ee3
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2010-03-01"^^xsd:date ;
+  sdo:director person:9651958e0a9cd2eb0dc5a3b475374c3f ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Excelsior Acquisition" ;
+  sdo:partOfSeason season:3 .
+
+episode:aa4a1bbfa27bf2143224bf63316c1a87
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2011-11-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Ornithophobia Diffusion" ;
+  sdo:partOfSeason season:5 .
+
+episode:aa85e5b004c5298046b826e362fbc0e4
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2010-01-18"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Bozeman Reaction" ;
+  sdo:partOfSeason season:3 .
+
+episode:ab3bef0c4961c7de509350f25fa8c343
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312 ;
+  sdo:datePublished "2008-11-24"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The White Asparagus Triangulation" ;
+  sdo:partOfSeason season:2 .
+
+episode:ad7f8a6a1ae313f3b068e07a87f99722
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2016-04-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Big Bear Precipitation" ;
+  sdo:partOfSeason season:9 .
+
+episode:adcbb17d9fbfae4e5cca6b25f3f5a44b
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:8769ede90b9831268d66eb1c47a52f89, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2019-05-16"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 24 ;
+  sdo:name "The Stockholm Syndrome" ;
+  sdo:partOfSeason season:12 .
+
+episode:ae8c203b4cd8314e1b157ad4f9ecd223
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2009-05-04"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Classified Materials Turbulence" ;
+  sdo:partOfSeason season:2 .
+
+episode:af0cfcd01ff5acbdf09ff67d552ac778
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-10-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Hook-Up Reverberation" ;
+  sdo:partOfSeason season:8 .
+
+episode:afcdac74ffa9da7c1ce56e67ca91b9e7
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:5bd81264bb229c206b752177f7441167, person:8b59820624740568a9533b1ed1a517c1, person:db275e83072a9a8ea66de1eaad41890a ;
+  sdo:datePublished "2008-04-21"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Bat Jar Conjecture" ;
+  sdo:partOfSeason season:1 .
+
+episode:afd7b3f29ea609e02af7c294d2d32e1a
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-10-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Scavenger Vortex" ;
+  sdo:partOfSeason season:7 .
+
+episode:b1e6bafe12ac59ae40e5d64a981521dc
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:8769ede90b9831268d66eb1c47a52f89, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-02-01"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Novelization Correlation" ;
+  sdo:partOfSeason season:11 .
+
+episode:b22b1acb7f9aecb09a2b798e8fed278a
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-02-26"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Intimacy Acceleration" ;
+  sdo:partOfSeason season:8 .
+
+episode:b263c2d66a1f40049bfba8c09976d788
+  a sdo:TVEpisode ;
+  sdo:creator person:5dfeb7290c9a5c140983bcdc352d8f4c ;
+  sdo:datePublished "2009-09-21"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Electric Can Opener Fluctuation" ;
+  sdo:partOfSeason season:3 .
+
+episode:b3431b3106dc245f92e1edd284309cad
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:8769ede90b9831268d66eb1c47a52f89 ;
+  sdo:datePublished "2016-10-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Dependence Transcendence" ;
+  sdo:partOfSeason season:10 .
+
+episode:b4ea5c6c68eeb373d861807b92b3b786
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2019-05-09"^^xsd:date ;
+  sdo:director person:9adb2e62243afa7cb78dc251cbe5c5d2 ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Maternal Conclusion" ;
+  sdo:partOfSeason season:12 .
+
+episode:b513be044c3d5552d4e6bb4c28df26c8
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3 ;
+  sdo:datePublished "2016-11-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Brain Bowl Incubation" ;
+  sdo:partOfSeason season:10 .
+
+episode:b581362fd83f10bdfd806dfb13fb2d26
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-04-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Comet Polarization" ;
+  sdo:partOfSeason season:11 .
+
+episode:b59d498774d7585ebe1dae6f6e4f3172
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2017-04-13"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Separation Agitation" ;
+  sdo:partOfSeason season:10 .
+
+episode:b72adabea6c09ede43ca9ad276137300
+  a sdo:TVEpisode ;
+  sdo:creator person:c55dc717c072cdce18ab3624965df312, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2009-05-11"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Monopolar Expedition" ;
+  sdo:partOfSeason season:2 .
+
+episode:b7bae9c1b35a5188e81d6f82f578325f
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2010-02-01"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Einstein Approximation" ;
+  sdo:partOfSeason season:3 .
+
+episode:b840193d5ff6a158e0fb630ce8106c93
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:8769ede90b9831268d66eb1c47a52f89, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2015-11-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Platonic Permutation" ;
+  sdo:partOfSeason season:9 .
+
+episode:b8f2d3bc3a72022cbdd7d75f62612072
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-10-30"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Misinterpretation Agitation" ;
+  sdo:partOfSeason season:8 .
+
+episode:b8f501c1ddc103e28164b04a67401b15
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2018-03-01"^^xsd:date ;
+  sdo:director person:9655c9eeb04654d4a62fc532a818b8b7 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Neonatal Nomenclature" ;
+  sdo:partOfSeason season:11 .
+
+episode:b9f8d95dd46543a21ef02218ad43c9f1
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-09-24"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Conjugal Configuration" ;
+  sdo:partOfSeason season:12 .
+
+episode:ba4cd5a4a4d45377df3089bae686fcf9
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:3356ec8f06901b5e772e1361b529a598, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2017-05-04"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Gyroscopic Collapse" ;
+  sdo:partOfSeason season:10 .
+
+episode:ba77bc12ab14da80ca3c0f1b83622d28
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-01-30"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Convention Conundrum" ;
+  sdo:partOfSeason season:7 .
+
+episode:baab74974984a15ff7675f9e2893ab8e
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2015-11-05"^^xsd:date ;
+  sdo:director person:dc5a5c2f78868faa240833d7a7264b4b ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Spock Resonance" ;
+  sdo:partOfSeason season:9 .
+
+episode:bab63be1eb3b82d783e868cb65c19bd2
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312 ;
+  sdo:datePublished "2009-12-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Gorilla Experiment" ;
+  sdo:partOfSeason season:3 .
+
+episode:bbaec78b17482d89130b00c51ec65278
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2013-10-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Raiders Minimization" ;
+  sdo:partOfSeason season:7 .
+
+episode:bc41f7abad708c6d2c612aae8cb8e366
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:cc54bbb1342b286e5d1abf936a9dacbb, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2019-04-25"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Decision Reverberation" ;
+  sdo:partOfSeason season:12 .
+
+episode:bc92a043f04012beaaab9cb17f687a26
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-10-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 3 ;
+  sdo:name "The Bachelor Party Corrosion" ;
+  sdo:partOfSeason season:9 .
+
+episode:bcb584a7116c5751f9bf75f106165448
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-03-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Colonization Application" ;
+  sdo:partOfSeason season:8 .
+
+episode:bd3232d58ce2cd6eed5bfd76b77ff581
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-02-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Spoiler Alert Segmentation" ;
+  sdo:partOfSeason season:6 .
+
+episode:be3f809c2b8155635a5aa9e576dded9d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-11-14"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Itchy Brain Simulation" ;
+  sdo:partOfSeason season:7 .
+
+episode:bf0182e5a79e27ca6c6fff1f9c1dfb42
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-02-21"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Monster Isolation" ;
+  sdo:partOfSeason season:6 .
+
+episode:c125fab17ee2a140d4e4b3385fa5e136
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2011-02-17"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Cohabitation Formulation" ;
+  sdo:partOfSeason season:4 .
+
+episode:c166d48d13d5aa139b5986698d46c663
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-12-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Earworm Reverberation" ;
+  sdo:partOfSeason season:9 .
+
+episode:c16aa6e2a3df0209b0e1962614eb860d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-09-25"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 1 ;
+  sdo:name "The Proposal Proposal" ;
+  sdo:partOfSeason season:11 .
+
+episode:c1c3b7c324a051c5c971b00ccd0a857a
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2008-05-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Tangerine Factor" ;
+  sdo:partOfSeason season:1 .
+
+episode:c3ddbf2aee2eff71022d6cadb25f9d4c
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-10-24"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Romance Resonance" ;
+  sdo:partOfSeason season:7 .
+
+episode:c4b320821700a507cafdee5157753256
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-10-16"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Explosion Implosion" ;
+  sdo:partOfSeason season:11 .
+
+episode:c4fc7fdeefcddb5e25a3566f037bf4d7
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:26dc334e150149d3c00b7d27ce5c2ea9, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c ;
+  sdo:datePublished "2016-12-01"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 10 ;
+  sdo:name "The Property Division Collision" ;
+  sdo:partOfSeason season:10 .
+
+episode:c675aff76dcefeb8533fb171a00cd863
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:7f97123b57fe024d07bff9e604d100fa, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2019-04-04"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Laureate Accumulation" ;
+  sdo:partOfSeason season:12 .
+
+episode:c88f6406e0a5a8a32942b5e5f24a12ae
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:90e95e9f853f4dc059c9cedfcfdbcedb ;
+  sdo:datePublished "2016-05-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 24 ;
+  sdo:name "The Convergence Convergence" ;
+  sdo:partOfSeason season:9 .
+
+episode:c9d1e7e34aed3bf6ec705526bd9ce1ba
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2017-02-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Locomotion Reverberation" ;
+  sdo:partOfSeason season:10 .
+
+episode:ca603f2088d7927973e323ead5c90645
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2010-01-11"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Psychic Vortex" ;
+  sdo:partOfSeason season:3 .
+
+episode:cc13c74252d2e20ae09abe3420ca81e6
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-10-17"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Hot Tub Contamination" ;
+  sdo:partOfSeason season:10 .
+
+episode:cc28892103af2fa225eadfc2944c466f
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:d34506c455f4aec941b9c07197b766d5, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-02-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Benefactor Factor" ;
+  sdo:partOfSeason season:4 .
+
+episode:cfce457c23eab3dda9980d4b3cf0f245
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:67f842e55cb9102bca3713f57e198cc7, person:709daad1964cbc38370524a22bbbab5a, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2010-04-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Wheaton Recurrence" ;
+  sdo:partOfSeason season:3 .
+
+episode:d019d36f46cb7483d8ced9b5fcf9582e
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2010-05-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 21 ;
+  sdo:name "The Plimpton Stimulation" ;
+  sdo:partOfSeason season:3 .
+
+episode:d0ef20172860e6a948fc85ba35cc75f7
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2013-05-16"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 24 ;
+  sdo:name "The Bon Voyage Reaction" ;
+  sdo:partOfSeason season:6 .
+
+episode:d13888704f3554857db47deef2bc4e52
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2008-03-31"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Pancake Batter Anomaly" ;
+  sdo:partOfSeason season:1 .
+
+episode:d1ab31df0cdf5eb1a23394af0a74baf9
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2008-03-17"^^xsd:date ;
+  sdo:director person:19914be4f026c6c9f5e35fcbade72cfd ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Cooper-Hofstadter Polarization" ;
+  sdo:partOfSeason season:1 .
+
+episode:d1eda7df03c7511d5ee8503adb56e0e5
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-02-16"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Rothman Disintegration" ;
+  sdo:partOfSeason season:5 .
+
+episode:d201db2696c0e27680ddcfecb0271ebe
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-01-08"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Space Probe Disintegration" ;
+  sdo:partOfSeason season:8 .
+
+episode:d23179c9d084290fcf7fb95ae39a4984
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-11-15"^^xsd:date ;
+  sdo:director person:9adb2e62243afa7cb78dc251cbe5c5d2 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Citation Negation" ;
+  sdo:partOfSeason season:12 .
+
+episode:d276212aa551ec6b4fd003df830a5326
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2014-01-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 12 ;
+  sdo:name "The Hesitation Ramification" ;
+  sdo:partOfSeason season:7 .
+
+episode:d2f30b8971c159a549ff1be65e686bea
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2012-05-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Launch Acceleration" ;
+  sdo:partOfSeason season:5 .
+
+episode:d31d2affac3aa8f60f7e5d1939d55b3e
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2008-05-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The Peanut Reaction" ;
+  sdo:partOfSeason season:1 .
+
+episode:d351c11cfcbaf98d1970732bc5471ed7
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-03-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Application Deterioration" ;
+  sdo:partOfSeason season:9 .
+
+episode:d3bd7ef0d0ddb1fcdd8581375d424d38
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2019-02-21"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 16 ;
+  sdo:name "The D&D Vortex" ;
+  sdo:partOfSeason season:12 .
+
+episode:d50a651b97cc26ff41d2397a5047ea3c
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-02-11"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Valentino Submergence" ;
+  sdo:partOfSeason season:9 .
+
+episode:d95cb2d3a1f816d3bdddca85468cc68c
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-09-26"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Deception Verification" ;
+  sdo:partOfSeason season:7 .
+
+episode:d9a2adefe8fb338066772148cfa4b1d7
+  a sdo:TVEpisode ;
+  sdo:creator person:01dad1e504bd7f187a3fce7410dab7a0, person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2018-11-01"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Grant Allocation Derivation" ;
+  sdo:partOfSeason season:12 .
+
+episode:da9316dd21e65cb1ad0a48b3f0886a4b
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-11-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Veracity Elasticity" ;
+  sdo:partOfSeason season:10 .
+
+episode:db69cc6fa0a5950ccc6287d595ded458
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-10-13"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Focus Attenuation" ;
+  sdo:partOfSeason season:8 .
+
+episode:de52bd0ac7b3d5075312590907fc8b9e
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2010-11-11"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The 21-Second Excitation" ;
+  sdo:partOfSeason season:4 .
+
+episode:dead19f10ff6f01bdfd40282770d80ab
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312 ;
+  sdo:datePublished "2009-02-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Maternal Capacitance" ;
+  sdo:partOfSeason season:2 .
+
+episode:dfd9c3ee62a48643901d9cf60b5c511e
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2008-05-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Shiksa Indeterminacy\"[28]\"The Pork Chop Indeterminacy\"[29]" ;
+  sdo:partOfSeason season:1 .
+
+episode:e012c8b6a53ed1e0e01e1945ecd0d869
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2012-10-18"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The Re-Entry Minimization" ;
+  sdo:partOfSeason season:6 .
+
+episode:e06205706dc385d431545e0930ca92f0
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:3356ec8f06901b5e772e1361b529a598, person:572c13407189947e58991c673681f3c8, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-12-14"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Celebration Reverberation" ;
+  sdo:partOfSeason season:11 .
+
+episode:e191ac0b5f68c75c0ab428326ec14495
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-11-16"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Tesla Recoil" ;
+  sdo:partOfSeason season:11 .
+
+episode:e2551d25c32b38aa6dc37ffbc870037e
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-03-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Leftover Thermalization" ;
+  sdo:partOfSeason season:8 .
+
+episode:e40e083bcf769882bf9ab38189301759
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:dbb7d986d57a87f78c4059857fb125c0 ;
+  sdo:datePublished "2009-03-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 17 ;
+  sdo:name "The Terminator Decoupling" ;
+  sdo:partOfSeason season:2 .
+
+episode:e410323adf2035c727c540c3bd892257
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2018-01-11"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Solo Oscillation" ;
+  sdo:partOfSeason season:11 .
+
+episode:e59ded8623c4dbf3c84a6a6786a3a6e9
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:c55dc717c072cdce18ab3624965df312, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2009-11-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Guitarist Amplification" ;
+  sdo:partOfSeason season:3 .
+
+episode:e67e5c9b46909069621af5bddb6170dc
+  a sdo:TVEpisode ;
+  sdo:creator person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:c55dc717c072cdce18ab3624965df312 ;
+  sdo:datePublished "2009-11-02"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Cornhusker Vortex" ;
+  sdo:partOfSeason season:3 .
+
+episode:e77788232909595031a728d2b50b2363
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-11-13"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Septum Deviation" ;
+  sdo:partOfSeason season:8 .
+
+episode:e7d3dbe7cfa7a5610490a6fd9202a66c
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5 ;
+  sdo:datePublished "2010-05-03"^^xsd:date ;
+  sdo:director person:3808fd6737d852becf1289fe16058dd3 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Spaghetti Catalyst" ;
+  sdo:partOfSeason season:3 .
+
+episode:e8a3896c4bf30fdd1776b0a9d525d032
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-05-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 24 ;
+  sdo:name "The Commitment Determination" ;
+  sdo:partOfSeason season:8 .
+
+episode:e91b1ce5dad127f78abfa8d94b070c84
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-02-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Troll Manifestation" ;
+  sdo:partOfSeason season:8 .
+
+episode:ea1f8fbf665e99111f8ad3323e081d3b
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2014-10-20"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Expedition Approximation" ;
+  sdo:partOfSeason season:8 .
+
+episode:eb03bfbb86e9ef94ca1ad0695056ad01
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c ;
+  sdo:datePublished "2012-01-19"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 13 ;
+  sdo:name "The Recombination Hypothesis" ;
+  sdo:partOfSeason season:5 .
+
+episode:eb43c42914f8035e9521498951f15437
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2013-10-17"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Workplace Proximity" ;
+  sdo:partOfSeason season:7 .
+
+episode:ed5fbbc49462d7d45e6e4577506303aa
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2019-01-03"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Paintball Scattering" ;
+  sdo:partOfSeason season:12 .
+
+episode:ed9d1ddf5cba234683dcb6ca06152b7b
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:6e2e8d0c2bb0cdb7facc7dc7db2b3c69, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2015-04-09"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Fortification Implementation" ;
+  sdo:partOfSeason season:8 .
+
+episode:ee991e2a0f44f6fde8757d30f62a6eeb
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-10-23"^^xsd:date ;
+  sdo:director person:dc5a5c2f78868faa240833d7a7264b4b ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Collaboration Contamination" ;
+  sdo:partOfSeason season:11 .
+
+episode:f0def8ac2e936cc59e9a0ea95198ceed
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:56811349a3f71c3b16d2d65d2bc1fd2e, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-05-05"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Wildebeest Implementation" ;
+  sdo:partOfSeason season:4 .
+
+episode:f0e2653663ea4da02169bfcb1a5c67c1
+  a sdo:TVEpisode ;
+  sdo:creator person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8b59820624740568a9533b1ed1a517c1, person:dbb7d986d57a87f78c4059857fb125c0 ;
+  sdo:datePublished "2008-11-10"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 7 ;
+  sdo:name "The Panty Piñata Polarization" ;
+  sdo:partOfSeason season:2 .
+
+episode:f2038be261a54b0d1c20a2e16a9b282d
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-02-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Locomotive Manipulation" ;
+  sdo:partOfSeason season:7 .
+
+episode:f26a08c762398955be225d5d53e244d8
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:7ad64bb59aad72f407aabbd5bbcc64a2, person:90e95e9f853f4dc059c9cedfcfdbcedb, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2018-11-08"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 8 ;
+  sdo:name "The Consummation Deviation" ;
+  sdo:partOfSeason season:12 .
+
+episode:f34c4b67afda8b4d270901d0fb4650ac
+  a sdo:TVEpisode ;
+  sdo:creator person:0860d6122efce12147fe4823d863b27b, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c ;
+  sdo:datePublished "2008-04-28"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Nerdvana Annihilation" ;
+  sdo:partOfSeason season:1 .
+
+episode:f44d85d91af970b805b3b13632ce83e7
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2010-10-28"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Irish Pub Formulation" ;
+  sdo:partOfSeason season:4 .
+
+episode:f486f9cd39f5b38cf84d3cc7de637416
+  a sdo:TVEpisode ;
+  sdo:creator person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d34506c455f4aec941b9c07197b766d5, person:d5e81aae1cc9a8df5a21013518c27a3c ;
+  sdo:datePublished "2010-11-18"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 9 ;
+  sdo:name "The Boyfriend Complexity" ;
+  sdo:partOfSeason season:4 .
+
+episode:f53a5484c7a2e5c17ceae0a3fd96b516
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:8769ede90b9831268d66eb1c47a52f89, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2016-10-27"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 6 ;
+  sdo:name "The Fetal Kick Catalyst" ;
+  sdo:partOfSeason season:10 .
+
+episode:f5ed6184f2f0b158151109be13101e44
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:63f85224a35a3c3d259c72862338a1e3, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-03-31"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 19 ;
+  sdo:name "The Solder Excursion Diversion" ;
+  sdo:partOfSeason season:9 .
+
+episode:f66733802ceb0d00d57f3d776fee576a
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2014-03-13"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 18 ;
+  sdo:name "The Mommy Observation" ;
+  sdo:partOfSeason season:7 .
+
+episode:f7341c4c220554c5716570c4710ef474
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2016-12-15"^^xsd:date ;
+  sdo:director person:dc5a5c2f78868faa240833d7a7264b4b ;
+  sdo:episodeNumber 11 ;
+  sdo:name "The Birthday Synchronicity" ;
+  sdo:partOfSeason season:10 .
+
+episode:f8b726f1d8f268717fa9c36e00cd8abf
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:56811349a3f71c3b16d2d65d2bc1fd2e, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-04-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Herb Garden Germination" ;
+  sdo:partOfSeason season:4 .
+
+episode:f9c7ff142600a9350a76c440de3d7118
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2011-10-13"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 5 ;
+  sdo:name "The Russian Rocket Reaction" ;
+  sdo:partOfSeason season:5 .
+
+episode:f9d872991abf7ea86221672e62fafeed
+  a sdo:TVEpisode ;
+  sdo:creator person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-01-26"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Beta Test Initiation" ;
+  sdo:partOfSeason season:5 .
+
+episode:fb529ed5c31a2d2b7fadb819e12379bb
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-05-01"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 22 ;
+  sdo:name "The Proton Transmogrification" ;
+  sdo:partOfSeason season:7 .
+
+episode:fc5748bf2c049d5f93240b0cbbd2ce8b
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:572c13407189947e58991c673681f3c8, person:5bd81264bb229c206b752177f7441167, person:8769ede90b9831268d66eb1c47a52f89, person:90e95e9f853f4dc059c9cedfcfdbcedb ;
+  sdo:datePublished "2019-02-07"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 15 ;
+  sdo:name "The Donation Oscillation" ;
+  sdo:partOfSeason season:12 .
+
+episode:fd2f1e5acc60f9c3042083888c2b5023
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2017-04-06"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 20 ;
+  sdo:name "The Recollection Dissipation" ;
+  sdo:partOfSeason season:10 .
+
+episode:fd719bf86f782eb9f48fed59c38fde51
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:43b06959ebc2c8d3defd650f7dfc6fc4, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2015-10-12"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 4 ;
+  sdo:name "The 2003 Approximation" ;
+  sdo:partOfSeason season:9 .
+
+episode:fd96acdd46f681f2877eb99cec3715e2
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f, person:f38aaba25ed1aa870845975f53a1372d ;
+  sdo:datePublished "2013-01-31"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 14 ;
+  sdo:name "The Cooper/Kripke Inversion" ;
+  sdo:partOfSeason season:6 .
+
+episode:fe03da9ce0af19076b6da4b85adeaf85
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:8769ede90b9831268d66eb1c47a52f89, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2014-05-08"^^xsd:date ;
+  sdo:director person:9651958e0a9cd2eb0dc5a3b475374c3f ;
+  sdo:episodeNumber 23 ;
+  sdo:name "The Gorilla Dissolution" ;
+  sdo:partOfSeason season:7 .
+
+episode:fef1a9fa8dc35aea4742b4e1cb5a1025
+  a sdo:TVEpisode ;
+  sdo:creator person:132d8dd6d50ba6cb3efaf7d273cc2e63, person:2f8a25110d3c104b3fbbdfd67ea9e5f9, person:310ba56de24c363e35f270edb53c4bba, person:5dfeb7290c9a5c140983bcdc352d8f4c, person:d5e81aae1cc9a8df5a21013518c27a3c, person:e6da4ec9730eb869d1fc62aef933b30f ;
+  sdo:datePublished "2012-10-04"^^xsd:date ;
+  sdo:director person:0889c9f4598278286ef084d124f6f185 ;
+  sdo:episodeNumber 2 ;
+  sdo:name "The Decoupling Fluctuation" ;
+  sdo:partOfSeason season:6 .

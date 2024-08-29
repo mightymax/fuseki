@@ -1,28 +1,27 @@
-FROM amazoncorretto:21-alpine3.18
+FROM sapmachine:jre-headless-ubuntu
 
-ARG FUSEKI_VERSION=4.10.0
+ARG FUSEKI_VERSION=5.1.0
+ARG WORKDIR=/opt
+ARG FUSEKI_HOME=/opt/apache-jena-fuseki-${FUSEKI_VERSION}
+ARG JENA_HOME=/opt/apache-jena-${FUSEKI_VERSION}
 ARG DLCDN=https://dlcdn.apache.org/jena/binaries
 
-WORKDIR /opt 
+WORKDIR $WORKDIR
 
 RUN \
-  apk --no-cache add curl && \
+  apt update && apt install -y curl && \
   curl -s ${DLCDN}/apache-jena-fuseki-${FUSEKI_VERSION}.tar.gz | tar zx && \
-  mv apache-jena-fuseki-${FUSEKI_VERSION} fuseki && \
-  curl -s ${DLCDN}/apache-jena-${FUSEKI_VERSION}.tar.gz | tar zx && \
-  mv apache-jena-${FUSEKI_VERSION} jena
+  curl -s ${DLCDN}/apache-jena-${FUSEKI_VERSION}.tar.gz | tar zx
 
 EXPOSE 3030
 
-WORKDIR /opt
-COPY entrypoint.sh .
+COPY bin .
+COPY examples /examples
 
 ENV \
-  PATH=$PATH:/opt/jena/bin:/opt/fuseki/bin \
-  FUSEKI_HOME=/opt/fuseki \
-  FUSEKI_DIR=/opt/fuseki \
-  FUSEKI_JAR=fuseki-server.jar \
+  FUSEKI_HOME=${FUSEKI_HOME} \
+  JENA_HOME=${JENA_HOME} \
+  PATH="$WORKDIR:${FUSEKI_HOME}/bin:${JENA_HOME}/bin:$PATH" \
   JAVA_OPTIONS="-Xmx2G -Xms2G"  
 
-ENTRYPOINT ["./entrypoint.sh" ]
-CMD []
+CMD ["bash"]
