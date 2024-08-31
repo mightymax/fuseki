@@ -6,9 +6,12 @@ Docker build file for running a container with [Apache Jena Fuseki](https://jena
 Next to Fuseki, this image also contains the Jena, containing the APIs, SPARQL engine, the TDB native RDF database and command line tools. This is not needed to run Fuseki (the Jena SPARQL server), but convineant to create TDB2 databases and other usage of the [Jena CLI tools](https://jena.apache.org/documentation/tools/).
 
 ## Build
-```
-docker buildx build -t mlindeman/jena:5.1.0 .
-docker tag mlindeman/jena:5.1.0 mlindeman/jena:latest
+```bash
+docker buildx build \
+  --platform linux/amd64,linux/arm64 \
+  --push \
+  -t mlindeman/jena:5.1.0  \
+  -t mlindeman/jena:latest .
 ```
 
 ## Run Fuseki server
@@ -46,7 +49,7 @@ The dataset can now be queried at http://localhost:3030/example.
 After startup, your dataset should be available with UI on http://localhost:3030/#/dataset/ds/query
 
 ## Other jena tooling
-The full set of [Command-line and other tools for Jena developers](https://jena.apache.org/documentation/tools/index.html) is also availble in this image.
+The full set of [Command-line and other tools for Jena developers](https://jena.apache.org/documentation/tools/index.html) is also available in this image.
 
 ## Common tasks:
 
